@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1900" viewBox="0 0 1900 1900" font-family="'Arial Rounded MT Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6c2"/><stop offset="55%" stop-color="#ffd23f"/><stop offset="100%" stop-color="#ff9e2c"/>
+    </radialGradient>
+    <linearGradient id="lot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a8f96"/><stop offset="100%" stop-color="#6c7178"/>
+    </linearGradient>
+    <linearGradient id="skyAft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a86c4"/><stop offset="55%" stop-color="#f0cf95"/><stop offset="100%" stop-color="#ffe9bf"/>
+    </linearGradient>
+    <linearGradient id="skySun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#322d62"/><stop offset="45%" stop-color="#d8503f"/><stop offset="78%" stop-color="#ff9148"/><stop offset="100%" stop-color="#ffce74"/>
+    </linearGradient>
+    <linearGradient id="skyDusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141b3a"/><stop offset="45%" stop-color="#34315f"/><stop offset="78%" stop-color="#6a3f63"/><stop offset="100%" stop-color="#b5675a"/>
+    </linearGradient>
+
+    <g id="car">
+      <rect x="10" y="40" width="160" height="42" rx="16" fill="#3d9be9" stroke="#21364a" stroke-width="4"/>
+      <polygon points="35,40 55,12 130,12 150,40" fill="#3d9be9" stroke="#21364a" stroke-width="4" stroke-linejoin="round"/>
+      <rect x="58" y="16" width="64" height="22" rx="4" fill="#bfe3ff" stroke="#21364a" stroke-width="2"/>
+      <rect x="70" y="0" width="60" height="14" rx="4" fill="#e4572e" stroke="#21364a" stroke-width="3"/>
+      <circle cx="168" cy="56" r="5" fill="#fff2a8"/>
+      <circle cx="45" cy="82" r="18" fill="#2b2b2b"/><circle cx="45" cy="82" r="7" fill="#d9d9d9"/>
+      <circle cx="135" cy="82" r="18" fill="#2b2b2b"/><circle cx="135" cy="82" r="7" fill="#d9d9d9"/>
+    </g>
+
+    <g id="labCute">
+      <ellipse cx="50" cy="120" rx="36" ry="8" fill="#000000" opacity="0.14"/>
+      <ellipse cx="50" cy="90" rx="30" ry="30" fill="#e8b06a" stroke="#7a5223" stroke-width="3"/>
+      <ellipse cx="50" cy="100" rx="17" ry="18" fill="#f5d6a3" opacity="0.7"/>
+      <ellipse cx="36" cy="116" rx="10" ry="7" fill="#e8b06a" stroke="#7a5223" stroke-width="2.5"/>
+      <ellipse cx="64" cy="116" rx="10" ry="7" fill="#e8b06a" stroke="#7a5223" stroke-width="2.5"/>
+      <ellipse cx="18" cy="50" rx="11" ry="22" fill="#cf9a52" stroke="#7a5223" stroke-width="3"/>
+      <ellipse cx="82" cy="50" rx="11" ry="22" fill="#cf9a52" stroke="#7a5223" stroke-width="3"/>
+      <circle cx="50" cy="44" r="31" fill="#e8b06a" stroke="#7a5223" stroke-width="3"/>
+      <ellipse cx="50" cy="56" rx="17" ry="13" fill="#f5d6a3"/>
+      <ellipse cx="39" cy="38" rx="8.5" ry="10.5" fill="#ffffff" stroke="#5c3f1c" stroke-width="1.5"/>
+      <ellipse cx="61" cy="38" rx="8.5" ry="10.5" fill="#ffffff" stroke="#5c3f1c" stroke-width="1.5"/>
+      <circle cx="41" cy="40" r="5" fill="#3a2a16"/><circle cx="59" cy="40" r="5" fill="#3a2a16"/>
+      <circle cx="43" cy="37" r="1.8" fill="#ffffff"/><circle cx="61" cy="37" r="1.8" fill="#ffffff"/>
+      <ellipse cx="50" cy="50" rx="6" ry="4.5" fill="#3a2a16"/>
+      <path d="M50,54 Q50,60 44,62 M50,54 Q50,60 56,62" stroke="#5c3f1c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M46,61 q4,7 8,0 z" fill="#ef8a9a" stroke="#c96b7a" stroke-width="1.5"/>
+    </g>
+
+    <g id="staffieCute">
+      <ellipse cx="52" cy="122" rx="40" ry="8" fill="#000000" opacity="0.14"/>
+      <ellipse cx="52" cy="92" rx="34" ry="30" fill="#9aa0a6" stroke="#4b4f54" stroke-width="3"/>
+      <ellipse cx="52" cy="102" rx="19" ry="18" fill="#c3c8cc" opacity="0.7"/>
+      <ellipse cx="36" cy="118" rx="11" ry="7" fill="#9aa0a6" stroke="#4b4f54" stroke-width="2.5"/>
+      <ellipse cx="68" cy="118" rx="11" ry="7" fill="#9aa0a6" stroke="#4b4f54" stroke-width="2.5"/>
+      <path d="M28,30 L24,2 L44,22 Z" fill="#9aa0a6" stroke="#4b4f54" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M76,30 L80,2 L60,22 Z" fill="#9aa0a6" stroke="#4b4f54" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="52" cy="44" r="32" fill="#9aa0a6" stroke="#4b4f54" stroke-width="3"/>
+      <path d="M30,74 Q52,92 74,74" stroke="#e4572e" stroke-width="7" fill="none"/>
+      <circle cx="52" cy="86" r="4" fill="#ffd23f" stroke="#b8860b" stroke-width="1.5"/>
+      <ellipse cx="52" cy="56" rx="19" ry="14" fill="#c3c8cc"/>
+      <ellipse cx="40" cy="38" rx="8.5" ry="10.5" fill="#ffffff" stroke="#3b3e42" stroke-width="1.5"/>
+      <ellipse cx="64" cy="38" rx="8.5" ry="10.5" fill="#ffffff" stroke="#3b3e42" stroke-width="1.5"/>
+      <circle cx="42" cy="40" r="5" fill="#2b2b2b"/><circle cx="62" cy="40" r="5" fill="#2b2b2b"/>
+      <circle cx="44" cy="37" r="1.8" fill="#ffffff"/><circle cx="64" cy="37" r="1.8" fill="#ffffff"/>
+      <ellipse cx="52" cy="50" rx="6.5" ry="5" fill="#2b2b2b"/>
+      <path d="M52,55 Q52,66 42,64 M52,55 Q52,66 62,64" stroke="#3b3e42" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M46,62 q6,9 12,0 z" fill="#ef8a9a" stroke="#c96b7a" stroke-width="1.5"/>
+    </g>
+
+    <g id="chiCute">
+      <ellipse cx="46" cy="120" rx="26" ry="7" fill="#000000" opacity="0.14"/>
+      <ellipse cx="46" cy="96" rx="22" ry="22" fill="#dcae73" stroke="#7a5230" stroke-width="3"/>
+      <ellipse cx="46" cy="104" rx="12" ry="12" fill="#f0d3a6" opacity="0.7"/>
+      <ellipse cx="36" cy="114" rx="8" ry="6" fill="#dcae73" stroke="#7a5230" stroke-width="2.5"/>
+      <ellipse cx="56" cy="114" rx="8" ry="6" fill="#dcae73" stroke="#7a5230" stroke-width="2.5"/>
+      <path d="M24,40 L8,0 L44,28 Z" fill="#dcae73" stroke="#7a5230" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M68,40 L84,0 L48,28 Z" fill="#dcae73" stroke="#7a5230" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M26,36 L18,12 L40,30 Z" fill="#f0b9b0"/>
+      <path d="M66,36 L74,12 L52,30 Z" fill="#f0b9b0"/>
+      <circle cx="46" cy="44" r="28" fill="#dcae73" stroke="#7a5230" stroke-width="3"/>
+      <ellipse cx="46" cy="54" rx="13" ry="10" fill="#f0d3a6"/>
+      <ellipse cx="35" cy="40" rx="9.5" ry="12" fill="#ffffff" stroke="#5c3f1c" stroke-width="1.5"/>
+      <ellipse cx="57" cy="40" rx="9.5" ry="12" fill="#ffffff" stroke="#5c3f1c" stroke-width="1.5"/>
+      <circle cx="37" cy="42" r="6" fill="#3a2a16"/><circle cx="55" cy="42" r="6" fill="#3a2a16"/>
+      <circle cx="39" cy="39" r="2.2" fill="#ffffff"/><circle cx="57" cy="39" r="2.2" fill="#ffffff"/>
+      <ellipse cx="46" cy="50" rx="4.5" ry="3.5" fill="#3a2a16"/>
+      <path d="M46,53 Q46,58 42,59 M46,53 Q46,58 50,59" stroke="#5c3f1c" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <g id="plannerCute">
+      <ellipse cx="40" cy="138" rx="26" ry="7" fill="#000000" opacity="0.14"/>
+      <rect x="28" y="96" width="11" height="34" rx="5" fill="#3a5266"/>
+      <rect x="41" y="96" width="11" height="34" rx="5" fill="#33485a"/>
+      <ellipse cx="33" cy="132" rx="9" ry="5" fill="#2b2b2b"/>
+      <ellipse cx="47" cy="132" rx="9" ry="5" fill="#2b2b2b"/>
+      <rect x="20" y="60" width="40" height="44" rx="14" fill="#2a9d8f" stroke="#1d6f66" stroke-width="2.5"/>
+      <rect x="54" y="70" width="10" height="26" rx="5" fill="#2a9d8f" stroke="#1d6f66" stroke-width="2"/>
+      <rect x="58" y="74" width="20" height="26" rx="3" fill="#8d5a2b" stroke="#5c3a1a" stroke-width="2"/>
+      <rect x="62" y="78" width="12" height="3.5" fill="#f6efe2"/><rect x="62" y="85" width="12" height="3.5" fill="#f6efe2"/><rect x="62" y="92" width="12" height="3.5" fill="#f6efe2"/>
+      <circle cx="40" cy="38" r="24" fill="#f3c98a" stroke="#c98f4e" stroke-width="2.5"/>
+      <path d="M16,38 Q14,10 40,10 Q66,10 64,38 Q56,24 40,24 Q24,24 16,38 Z" fill="#6d4c2f"/>
+      <circle cx="32" cy="38" r="7" fill="#ffffff" stroke="#3b3e42" stroke-width="2"/>
+      <circle cx="48" cy="38" r="7" fill="#ffffff" stroke="#3b3e42" stroke-width="2"/>
+      <line x1="39" y1="38" x2="41" y2="38" stroke="#3b3e42" stroke-width="2"/>
+      <circle cx="32" cy="39" r="3" fill="#2b2b2b"/><circle cx="48" cy="39" r="3" fill="#2b2b2b"/>
+      <circle cx="33.5" cy="37.5" r="1.2" fill="#ffffff"/><circle cx="49.5" cy="37.5" r="1.2" fill="#ffffff"/>
+      <path d="M40,42 q-2,4 1,5" stroke="#c98f4e" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M33,50 q7,6 14,0" stroke="#9c6b3a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <circle cx="27" cy="46" r="3.5" fill="#f3a3a0" opacity="0.5"/><circle cx="53" cy="46" r="3.5" fill="#f3a3a0" opacity="0.5"/>
+      <path d="M60,28 q4,6 0,9 q-4,-3 0,-9 z" fill="#7fd4ff" stroke="#4aa3d6" stroke-width="1"/>
+    </g>
+
+    <g id="karenCute">
+      <ellipse cx="42" cy="140" rx="28" ry="7" fill="#000000" opacity="0.14"/>
+      <rect x="30" y="100" width="11" height="34" rx="5" fill="#6b5566"/>
+      <rect x="43" y="100" width="11" height="34" rx="5" fill="#5d4a59"/>
+      <ellipse cx="35" cy="136" rx="9" ry="5" fill="#3b2b33"/>
+      <ellipse cx="49" cy="136" rx="9" ry="5" fill="#3b2b33"/>
+      <path d="M18,66 Q42,58 66,66 L72,108 L12,108 Z" fill="#cf6f7e" stroke="#9c4d5a" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M62,72 Q78,60 80,40" stroke="#cf6f7e" stroke-width="11" fill="none" stroke-linecap="round"/>
+      <g transform="rotate(12 81 33)">
+        <rect x="74" y="22" width="14" height="22" rx="3" fill="#2b2b2b" stroke="#000000" stroke-width="1"/>
+        <rect x="76" y="25" width="9" height="14" fill="#7fd4ff"/>
+      </g>
+      <circle cx="42" cy="40" r="24" fill="#f3c98a" stroke="#c98f4e" stroke-width="2.5"/>
+      <path d="M16,42 Q14,12 42,12 Q70,12 68,42 L72,70 L58,70 L58,40 Q58,26 42,26 Q26,26 24,44 L24,60 L14,60 Z" fill="#d99a3f" stroke="#9c7224" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M28,30 L40,35" stroke="#7a5a22" stroke-width="3" stroke-linecap="round"/>
+      <path d="M56,30 L44,35" stroke="#7a5a22" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="34" cy="42" rx="6.5" ry="8" fill="#ffffff" stroke="#3b3e42" stroke-width="1.5"/>
+      <ellipse cx="50" cy="42" rx="6.5" ry="8" fill="#ffffff" stroke="#3b3e42" stroke-width="1.5"/>
+      <circle cx="35" cy="44" r="3.2" fill="#2b2b2b"/><circle cx="49" cy="44" r="3.2" fill="#2b2b2b"/>
+      <ellipse cx="42" cy="55" rx="6" ry="4.5" fill="#7a2e36"/>
+    </g>
+  </defs>
+
+  <rect width="1900" height="1900" fill="#eef1f5"/>
+  <text x="950" y="42" text-anchor="middle" font-size="30" fill="#2b2b2b" font-weight="900">Rest Stop: Karen's Watching — Style Mockup (blue signage)</text>
+  <text x="950" y="66" text-anchor="middle" font-size="15" fill="#6b7280">Flat cartoon · cuter characters · dynamic sky (afternoon / sunset / dusk) · US-blue rest-area signs</text>
+
+  <!-- ===== 1 · TITLE (afternoon) ===== -->
+  <text x="30" y="102" font-size="17" fill="#3b4252" font-weight="900">1 · TITLE SCREEN</text>
+  <g transform="translate(30,112)">
+    <rect x="0" y="0" width="900" height="300" fill="url(#skyAft)"/>
+    <circle cx="735" cy="150" r="80" fill="#ffd23f" opacity="0.22"/>
+    <circle cx="735" cy="150" r="54" fill="url(#sunGrad)"/>
+    <rect x="0" y="296" width="900" height="14" fill="#7cb342"/>
+    <rect x="0" y="310" width="900" height="160" fill="url(#lot)"/>
+    <rect x="120" y="380" width="60" height="6" rx="3" fill="#f2e9c9" opacity="0.8"/>
+    <rect x="520" y="380" width="60" height="6" rx="3" fill="#f2e9c9" opacity="0.8"/>
+    <rect x="250" y="36" width="400" height="104" rx="14" fill="#15489c" stroke="#ffffff" stroke-width="6"/>
+    <circle cx="266" cy="52" r="4" fill="#ffffff"/><circle cx="634" cy="52" r="4" fill="#ffffff"/>
+    <circle cx="266" cy="124" r="4" fill="#ffffff"/><circle cx="634" cy="124" r="4" fill="#ffffff"/>
+    <text x="450" y="104" text-anchor="middle" font-size="54" fill="#ffffff" font-weight="900" letter-spacing="2">REST STOP</text>
+    <rect x="300" y="150" width="300" height="44" rx="9" fill="#6d4c2f" stroke="#f5deb3" stroke-width="3"/>
+    <text x="450" y="180" text-anchor="middle" font-size="22" fill="#ffe7c2" font-style="italic" font-weight="700">Karen's Watching</text>
+    <use href="#car" transform="translate(70,300)"/>
+    <use href="#staffieCute" transform="translate(296,288)"/>
+    <use href="#labCute" transform="translate(392,300)"/>
+    <use href="#chiCute" transform="translate(486,308)"/>
+    <rect x="600" y="300" width="276" height="120" rx="14" fill="#10202e" opacity="0.34"/>
+    <text x="624" y="338" font-size="30" fill="#ffffff" font-weight="900">▶ START</text>
+    <text x="624" y="376" font-size="24" fill="#ffffff" opacity="0.92" font-weight="700">HIGH SCORES</text>
+    <text x="624" y="410" font-size="24" fill="#ffffff" opacity="0.92" font-weight="700">HOW TO PLAY</text>
+    <rect x="0" y="440" width="900" height="30" fill="#16222e" opacity="0.92"/>
+    <text x="450" y="460" text-anchor="middle" font-size="16" fill="#dfe7ee" font-weight="700">Move: ← →     Run: Shift     Action: Space</text>
+    <rect x="0" y="0" width="900" height="470" fill="none" stroke="#2b2b2b" stroke-width="3"/>
+  </g>
+
+  <!-- ===== 2 · GAMEPLAY (sunset) ===== -->
+  <text x="970" y="102" font-size="17" fill="#3b4252" font-weight="900">2 · GAMEPLAY  (HUD)</text>
+  <g transform="translate(970,112)">
+    <rect x="0" y="0" width="900" height="300" fill="url(#skySun)"/>
+    <path d="M0,300 Q450,70 900,300" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="3" stroke-dasharray="6 11"/>
+    <circle cx="612" cy="252" r="46" fill="url(#sunGrad)"/>
+    <rect x="0" y="296" width="900" height="14" fill="#5c8a30"/>
+    <rect x="0" y="310" width="900" height="160" fill="url(#lot)"/>
+    <use href="#car" transform="translate(20,320) scale(0.8)"/>
+    <rect x="246" y="300" width="14" height="40" fill="#7a5230"/>
+    <circle cx="253" cy="288" r="34" fill="#4f8a3a" stroke="#356025" stroke-width="3"/>
+    <rect x="320" y="362" width="150" height="66" rx="16" fill="#6fa23c" stroke="#4f8a2b" stroke-width="3"/>
+    <rect x="388" y="334" width="4" height="30" fill="#6d4c2f"/>
+    <rect x="362" y="320" width="58" height="18" rx="3" fill="#15489c"/>
+    <text x="391" y="333" text-anchor="middle" font-size="10" fill="#ffffff" font-weight="900">DOG AREA</text>
+    <rect x="720" y="252" width="160" height="176" fill="#e8dcc2" stroke="#7a6a48" stroke-width="3"/>
+    <rect x="712" y="240" width="176" height="18" rx="4" fill="#b8a273" stroke="#7a6a48" stroke-width="2"/>
+    <rect x="788" y="330" width="34" height="98" fill="#6d4c2f"/>
+    <rect x="734" y="286" width="56" height="26" rx="4" fill="#15489c"/>
+    <text x="762" y="304" text-anchor="middle" font-size="12" fill="#ffffff" font-weight="900">RESTROOM</text>
+    <use href="#karenCute" transform="translate(636,292) scale(0.92)"/>
+    <line x1="498" y1="392" x2="548" y2="404" stroke="#2b2b2b" stroke-width="2.5"/>
+    <use href="#plannerCute" transform="translate(452,300) scale(0.92)"/>
+    <use href="#chiCute" transform="translate(534,348) scale(0.7)"/>
+    <rect x="452" y="270" width="118" height="28" rx="9" fill="#16222e" opacity="0.92"/>
+    <text x="511" y="289" text-anchor="middle" font-size="14" fill="#ffe39a" font-weight="900">SPACE: Grab</text>
+    <rect x="12" y="12" width="222" height="124" rx="13" fill="#0f1c28" opacity="0.34"/>
+    <rect x="20" y="20" width="206" height="40" rx="20" fill="#16222e" opacity="0.9"/>
+    <circle cx="44" cy="40" r="12" fill="#ffd23f"/>
+    <text x="64" y="47" font-size="20" fill="#ffffff" font-weight="900">DAYLIGHT  642</text>
+    <rect x="20" y="64" width="206" height="9" rx="4.5" fill="#000000" opacity="0.45"/>
+    <rect x="20" y="64" width="130" height="9" rx="4.5" fill="#ffd23f"/>
+    <text x="22" y="98" font-size="13" fill="#ffffff" font-weight="900">POOP</text>
+    <rect x="74" y="86" width="150" height="14" rx="7" fill="#000000" opacity="0.45"/>
+    <rect x="74" y="86" width="84" height="14" rx="7" fill="#9c7a3f"/>
+    <text x="22" y="124" font-size="13" fill="#ffffff" font-weight="900">KAREN</text>
+    <rect x="74" y="112" width="150" height="14" rx="7" fill="#000000" opacity="0.45"/>
+    <rect x="74" y="112" width="46" height="14" rx="7" fill="#d9534f"/>
+    <rect x="0" y="0" width="900" height="470" fill="none" stroke="#2b2b2b" stroke-width="3"/>
+  </g>
+
+  <!-- ===== 3 · HIGH SCORES (dusk) ===== -->
+  <text x="30" y="617" font-size="17" fill="#3b4252" font-weight="900">3 · HIGH SCORES</text>
+  <g transform="translate(30,627)">
+    <rect x="0" y="0" width="900" height="300" fill="url(#skyDusk)"/>
+    <circle cx="120" cy="60" r="2" fill="#ffffff"/><circle cx="220" cy="90" r="1.6" fill="#ffffff"/><circle cx="760" cy="60" r="2" fill="#ffffff"/><circle cx="840" cy="110" r="1.6" fill="#ffffff"/>
+    <rect x="0" y="296" width="900" height="14" fill="#3f5f24"/>
+    <rect x="0" y="310" width="900" height="160" fill="#4a4e54"/>
+    <rect x="250" y="26" width="400" height="68" rx="13" fill="#15489c" stroke="#ffffff" stroke-width="5"/>
+    <text x="450" y="72" text-anchor="middle" font-size="38" fill="#ffffff" font-weight="900" letter-spacing="2">HIGH SCORES</text>
+    <rect x="160" y="112" width="580" height="312" rx="18" fill="#fff8e7" stroke="#2b2b2b" stroke-width="3"/>
+    <text x="220" y="152" font-size="19" fill="#3b4252" font-weight="900">RANK</text>
+    <text x="430" y="152" text-anchor="middle" font-size="19" fill="#3b4252" font-weight="900">INITIALS</text>
+    <text x="650" y="152" text-anchor="middle" font-size="19" fill="#3b4252" font-weight="900">DAYLIGHT</text>
+    <line x1="190" y1="164" x2="710" y2="164" stroke="#cdc3aa" stroke-width="2"/>
+    <text x="228" y="200" font-size="24" fill="#2b2b2b" font-weight="900">1</text>
+    <text x="430" y="200" text-anchor="middle" font-size="24" fill="#2b2b2b" font-weight="900" letter-spacing="6">ABC</text>
+    <text x="650" y="200" text-anchor="middle" font-size="24" fill="#15489c" font-weight="900">980</text>
+    <rect x="178" y="214" width="544" height="38" rx="9" fill="#ffe39a"/>
+    <text x="228" y="240" font-size="24" fill="#2b2b2b" font-weight="900">2</text>
+    <text x="404" y="240" text-anchor="middle" font-size="24" fill="#2b2b2b" font-weight="900">J</text>
+    <rect x="420" y="218" width="28" height="30" rx="5" fill="none" stroke="#e4572e" stroke-width="3"/>
+    <text x="434" y="240" text-anchor="middle" font-size="24" fill="#e4572e" font-weight="900">E</text>
+    <text x="464" y="240" text-anchor="middle" font-size="24" fill="#2b2b2b" font-weight="900">T</text>
+    <text x="650" y="240" text-anchor="middle" font-size="24" fill="#15489c" font-weight="900">870</text>
+    <text x="500" y="240" font-size="13" fill="#9c5246" font-weight="700" font-style="italic">← entering your initials</text>
+    <text x="228" y="282" font-size="24" fill="#2b2b2b" font-weight="900">3</text>
+    <text x="430" y="282" text-anchor="middle" font-size="24" fill="#2b2b2b" font-weight="900" letter-spacing="6">ZZZ</text>
+    <text x="650" y="282" text-anchor="middle" font-size="24" fill="#15489c" font-weight="900">640</text>
+    <text x="228" y="322" font-size="24" fill="#2b2b2b" font-weight="900">4</text>
+    <text x="430" y="322" text-anchor="middle" font-size="24" fill="#2b2b2b" font-weight="900" letter-spacing="6">BOB</text>
+    <text x="650" y="322" text-anchor="middle" font-size="24" fill="#15489c" font-weight="900">610</text>
+    <text x="228" y="362" font-size="24" fill="#2b2b2b" font-weight="900">5</text>
+    <text x="430" y="362" text-anchor="middle" font-size="24" fill="#2b2b2b" font-weight="900" letter-spacing="6">AAA</text>
+    <text x="650" y="362" text-anchor="middle" font-size="24" fill="#15489c" font-weight="900">540</text>
+    <text x="450" y="404" text-anchor="middle" font-size="17" fill="#6b5a3a" font-weight="700">Enter: Save      Esc: Back</text>
+    <rect x="0" y="0" width="900" height="470" fill="none" stroke="#2b2b2b" stroke-width="3"/>
+  </g>
+
+  <!-- ===== 4 · CAST & PALETTE ===== -->
+  <text x="970" y="617" font-size="17" fill="#3b4252" font-weight="900">4 · CAST &amp; PALETTE</text>
+  <g transform="translate(970,627)">
+    <rect x="0" y="0" width="900" height="470" fill="#fbf3df" stroke="#2b2b2b" stroke-width="3"/>
+    <text x="30" y="48" font-size="24" fill="#3b4252" font-weight="900">The Cast</text>
+    <line x1="30" y1="62" x2="870" y2="62" stroke="#e0d6bd" stroke-width="2"/>
+    <use href="#plannerCute" transform="translate(60,90) scale(1.3)"/>
+    <text x="118" y="320" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="900">THE PLANNER</text>
+    <text x="118" y="338" text-anchor="middle" font-size="13" fill="#6b7280">you</text>
+    <use href="#labCute" transform="translate(220,108) scale(1.3)"/>
+    <text x="285" y="320" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="900">LABRADOR</text>
+    <text x="285" y="338" text-anchor="middle" font-size="13" fill="#6b7280">the Puller</text>
+    <use href="#staffieCute" transform="translate(380,104) scale(1.3)"/>
+    <text x="448" y="320" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="900">STAFFIE</text>
+    <text x="448" y="338" text-anchor="middle" font-size="13" fill="#6b7280">the Lightning Rod</text>
+    <use href="#chiCute" transform="translate(560,112) scale(1.3)"/>
+    <text x="620" y="320" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="900">CHIHUAHUA</text>
+    <text x="620" y="338" text-anchor="middle" font-size="13" fill="#6b7280">the Runner</text>
+    <use href="#karenCute" transform="translate(720,90) scale(1.3)"/>
+    <text x="778" y="320" text-anchor="middle" font-size="15" fill="#2b2b2b" font-weight="900">KAREN</text>
+    <text x="778" y="338" text-anchor="middle" font-size="13" fill="#6b7280">antagonist</text>
+    <text x="30" y="372" font-size="18" fill="#3b4252" font-weight="900">Palette</text>
+    <g font-size="11" fill="#5b5240" font-weight="700">
+      <rect x="30"  y="384" width="92" height="30" rx="6" fill="#322d62"/><text x="30" y="430">Dusk</text>
+      <rect x="135" y="384" width="92" height="30" rx="6" fill="#ef8a4d"/><text x="135" y="430">Sunset</text>
+      <rect x="240" y="384" width="92" height="30" rx="6" fill="#ffd23f"/><text x="240" y="430">Gold / Sun</text>
+      <rect x="345" y="384" width="92" height="30" rx="6" fill="#7cb342"/><text x="345" y="430">Grass</text>
+      <rect x="450" y="384" width="92" height="30" rx="6" fill="#7d7d7d"/><text x="450" y="430">Lot grey</text>
+      <rect x="555" y="384" width="92" height="30" rx="6" fill="#15489c"/><text x="555" y="430">Sign blue</text>
+      <rect x="660" y="384" width="92" height="30" rx="6" fill="#3d9be9"/><text x="660" y="430">Car blue</text>
+      <rect x="765" y="384" width="92" height="30" rx="6" fill="#e4572e"/><text x="765" y="430">Accent</text>
+    </g>
+    <text x="30" y="456" font-size="13" fill="#6b7280" font-style="italic">US rest-area signs are white-on-blue · sky color is driven live by remaining daylight</text>
+  </g>
+</svg>

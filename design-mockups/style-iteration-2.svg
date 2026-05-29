@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1560" height="1560" viewBox="0 0 1560 1560" font-family="'Arial Rounded MT Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+  <defs>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6c2"/><stop offset="55%" stop-color="#ffd23f"/><stop offset="100%" stop-color="#ff9e2c"/>
+    </radialGradient>
+    <linearGradient id="lot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a8f96"/><stop offset="100%" stop-color="#6c7178"/>
+    </linearGradient>
+    <linearGradient id="skyMid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3f8fd6"/><stop offset="55%" stop-color="#8fc3ec"/><stop offset="100%" stop-color="#d7ecff"/>
+    </linearGradient>
+    <linearGradient id="skyAft" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a86c4"/><stop offset="55%" stop-color="#f0cf95"/><stop offset="100%" stop-color="#ffe9bf"/>
+    </linearGradient>
+    <linearGradient id="skyGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6d6aa8"/><stop offset="50%" stop-color="#f3a24e"/><stop offset="100%" stop-color="#ffd279"/>
+    </linearGradient>
+    <linearGradient id="skySun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#322d62"/><stop offset="45%" stop-color="#d8503f"/><stop offset="78%" stop-color="#ff9148"/><stop offset="100%" stop-color="#ffce74"/>
+    </linearGradient>
+    <linearGradient id="skyDusk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141b3a"/><stop offset="45%" stop-color="#34315f"/><stop offset="78%" stop-color="#6a3f63"/><stop offset="100%" stop-color="#b5675a"/>
+    </linearGradient>
+
+    <!-- ============ CUTE CHARACTERS ============ -->
+    <g id="labCute">
+      <ellipse cx="50" cy="120" rx="36" ry="8" fill="#000000" opacity="0.14"/>
+      <ellipse cx="50" cy="90" rx="30" ry="30" fill="#e8b06a" stroke="#7a5223" stroke-width="3"/>
+      <ellipse cx="50" cy="100" rx="17" ry="18" fill="#f5d6a3" opacity="0.7"/>
+      <ellipse cx="36" cy="116" rx="10" ry="7" fill="#e8b06a" stroke="#7a5223" stroke-width="2.5"/>
+      <ellipse cx="64" cy="116" rx="10" ry="7" fill="#e8b06a" stroke="#7a5223" stroke-width="2.5"/>
+      <ellipse cx="18" cy="50" rx="11" ry="22" fill="#cf9a52" stroke="#7a5223" stroke-width="3"/>
+      <ellipse cx="82" cy="50" rx="11" ry="22" fill="#cf9a52" stroke="#7a5223" stroke-width="3"/>
+      <circle cx="50" cy="44" r="31" fill="#e8b06a" stroke="#7a5223" stroke-width="3"/>
+      <ellipse cx="50" cy="56" rx="17" ry="13" fill="#f5d6a3"/>
+      <ellipse cx="39" cy="38" rx="8.5" ry="10.5" fill="#ffffff" stroke="#5c3f1c" stroke-width="1.5"/>
+      <ellipse cx="61" cy="38" rx="8.5" ry="10.5" fill="#ffffff" stroke="#5c3f1c" stroke-width="1.5"/>
+      <circle cx="41" cy="40" r="5" fill="#3a2a16"/><circle cx="59" cy="40" r="5" fill="#3a2a16"/>
+      <circle cx="43" cy="37" r="1.8" fill="#ffffff"/><circle cx="61" cy="37" r="1.8" fill="#ffffff"/>
+      <ellipse cx="50" cy="50" rx="6" ry="4.5" fill="#3a2a16"/>
+      <circle cx="48" cy="48.5" r="1.3" fill="#ffffff" opacity="0.6"/>
+      <path d="M50,54 Q50,60 44,62 M50,54 Q50,60 56,62" stroke="#5c3f1c" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M46,61 q4,7 8,0 z" fill="#ef8a9a" stroke="#c96b7a" stroke-width="1.5"/>
+    </g>
+
+    <g id="staffieCute">
+      <ellipse cx="52" cy="122" rx="40" ry="8" fill="#000000" opacity="0.14"/>
+      <ellipse cx="52" cy="92" rx="34" ry="30" fill="#9aa0a6" stroke="#4b4f54" stroke-width="3"/>
+      <ellipse cx="52" cy="102" rx="19" ry="18" fill="#c3c8cc" opacity="0.7"/>
+      <ellipse cx="36" cy="118" rx="11" ry="7" fill="#9aa0a6" stroke="#4b4f54" stroke-width="2.5"/>
+      <ellipse cx="68" cy="118" rx="11" ry="7" fill="#9aa0a6" stroke="#4b4f54" stroke-width="2.5"/>
+      <path d="M28,30 L24,2 L44,22 Z" fill="#9aa0a6" stroke="#4b4f54" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M76,30 L80,2 L60,22 Z" fill="#9aa0a6" stroke="#4b4f54" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="52" cy="44" r="32" fill="#9aa0a6" stroke="#4b4f54" stroke-width="3"/>
+      <path d="M30,74 Q52,92 74,74" stroke="#e4572e" stroke-width="7" fill="none"/>
+      <circle cx="52" cy="86" r="4" fill="#ffd23f" stroke="#b8860b" stroke-width="1.5"/>
+      <ellipse cx="52" cy="56" rx="19" ry="14" fill="#c3c8cc"/>
+      <ellipse cx="40" cy="38" rx="8.5" ry="10.5" fill="#ffffff" stroke="#3b3e42" stroke-width="1.5"/>
+      <ellipse cx="64" cy="38" rx="8.5" ry="10.5" fill="#ffffff" stroke="#3b3e42" stroke-width="1.5"/>
+      <circle cx="42" cy="40" r="5" fill="#2b2b2b"/><circle cx="62" cy="40" r="5" fill="#2b2b2b"/>
+      <circle cx="44" cy="37" r="1.8" fill="#ffffff"/><circle cx="64" cy="37" r="1.8" fill="#ffffff"/>
+      <ellipse cx="52" cy="50" rx="6.5" ry="5" fill="#2b2b2b"/>
+      <path d="M52,55 Q52,66 42,64 M52,55 Q52,66 62,64" stroke="#3b3e42" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <path d="M46,62 q6,9 12,0 z" fill="#ef8a9a" stroke="#c96b7a" stroke-width="1.5"/>
+    </g>
+
+    <g id="chiCute">
+      <ellipse cx="46" cy="120" rx="26" ry="7" fill="#000000" opacity="0.14"/>
+      <ellipse cx="46" cy="96" rx="22" ry="22" fill="#dcae73" stroke="#7a5230" stroke-width="3"/>
+      <ellipse cx="46" cy="104" rx="12" ry="12" fill="#f0d3a6" opacity="0.7"/>
+      <ellipse cx="36" cy="114" rx="8" ry="6" fill="#dcae73" stroke="#7a5230" stroke-width="2.5"/>
+      <ellipse cx="56" cy="114" rx="8" ry="6" fill="#dcae73" stroke="#7a5230" stroke-width="2.5"/>
+      <path d="M24,40 L8,0 L44,28 Z" fill="#dcae73" stroke="#7a5230" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M68,40 L84,0 L48,28 Z" fill="#dcae73" stroke="#7a5230" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M26,36 L18,12 L40,30 Z" fill="#f0b9b0"/>
+      <path d="M66,36 L74,12 L52,30 Z" fill="#f0b9b0"/>
+      <circle cx="46" cy="44" r="28" fill="#dcae73" stroke="#7a5230" stroke-width="3"/>
+      <ellipse cx="46" cy="54" rx="13" ry="10" fill="#f0d3a6"/>
+      <ellipse cx="35" cy="40" rx="9.5" ry="12" fill="#ffffff" stroke="#5c3f1c" stroke-width="1.5"/>
+      <ellipse cx="57" cy="40" rx="9.5" ry="12" fill="#ffffff" stroke="#5c3f1c" stroke-width="1.5"/>
+      <circle cx="37" cy="42" r="6" fill="#3a2a16"/><circle cx="55" cy="42" r="6" fill="#3a2a16"/>
+      <circle cx="39" cy="39" r="2.2" fill="#ffffff"/><circle cx="57" cy="39" r="2.2" fill="#ffffff"/>
+      <ellipse cx="46" cy="50" rx="4.5" ry="3.5" fill="#3a2a16"/>
+      <path d="M46,53 Q46,58 42,59 M46,53 Q46,58 50,59" stroke="#5c3f1c" stroke-width="2" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <g id="plannerCute">
+      <ellipse cx="40" cy="138" rx="26" ry="7" fill="#000000" opacity="0.14"/>
+      <rect x="28" y="96" width="11" height="34" rx="5" fill="#3a5266"/>
+      <rect x="41" y="96" width="11" height="34" rx="5" fill="#33485a"/>
+      <ellipse cx="33" cy="132" rx="9" ry="5" fill="#2b2b2b"/>
+      <ellipse cx="47" cy="132" rx="9" ry="5" fill="#2b2b2b"/>
+      <rect x="20" y="60" width="40" height="44" rx="14" fill="#2a9d8f" stroke="#1d6f66" stroke-width="2.5"/>
+      <rect x="54" y="70" width="10" height="26" rx="5" fill="#2a9d8f" stroke="#1d6f66" stroke-width="2"/>
+      <rect x="58" y="74" width="20" height="26" rx="3" fill="#8d5a2b" stroke="#5c3a1a" stroke-width="2"/>
+      <rect x="62" y="78" width="12" height="3.5" fill="#f6efe2"/><rect x="62" y="85" width="12" height="3.5" fill="#f6efe2"/><rect x="62" y="92" width="12" height="3.5" fill="#f6efe2"/>
+      <circle cx="40" cy="38" r="24" fill="#f3c98a" stroke="#c98f4e" stroke-width="2.5"/>
+      <path d="M16,38 Q14,10 40,10 Q66,10 64,38 Q56,24 40,24 Q24,24 16,38 Z" fill="#6d4c2f"/>
+      <circle cx="32" cy="38" r="7" fill="#ffffff" stroke="#3b3e42" stroke-width="2"/>
+      <circle cx="48" cy="38" r="7" fill="#ffffff" stroke="#3b3e42" stroke-width="2"/>
+      <line x1="39" y1="38" x2="41" y2="38" stroke="#3b3e42" stroke-width="2"/>
+      <circle cx="32" cy="39" r="3" fill="#2b2b2b"/><circle cx="48" cy="39" r="3" fill="#2b2b2b"/>
+      <circle cx="33.5" cy="37.5" r="1.2" fill="#ffffff"/><circle cx="49.5" cy="37.5" r="1.2" fill="#ffffff"/>
+      <path d="M40,42 q-2,4 1,5" stroke="#c98f4e" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M33,50 q7,6 14,0" stroke="#9c6b3a" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+      <circle cx="27" cy="46" r="3.5" fill="#f3a3a0" opacity="0.5"/><circle cx="53" cy="46" r="3.5" fill="#f3a3a0" opacity="0.5"/>
+      <path d="M60,28 q4,6 0,9 q-4,-3 0,-9 z" fill="#7fd4ff" stroke="#4aa3d6" stroke-width="1"/>
+    </g>
+
+    <g id="karenCute">
+      <ellipse cx="42" cy="140" rx="28" ry="7" fill="#000000" opacity="0.14"/>
+      <rect x="30" y="100" width="11" height="34" rx="5" fill="#6b5566"/>
+      <rect x="43" y="100" width="11" height="34" rx="5" fill="#5d4a59"/>
+      <ellipse cx="35" cy="136" rx="9" ry="5" fill="#3b2b33"/>
+      <ellipse cx="49" cy="136" rx="9" ry="5" fill="#3b2b33"/>
+      <path d="M18,66 Q42,58 66,66 L72,108 L12,108 Z" fill="#cf6f7e" stroke="#9c4d5a" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M62,72 Q78,60 80,40" stroke="#cf6f7e" stroke-width="11" fill="none" stroke-linecap="round"/>
+      <g transform="rotate(12 81 33)">
+        <rect x="74" y="22" width="14" height="22" rx="3" fill="#2b2b2b" stroke="#000000" stroke-width="1"/>
+        <rect x="76" y="25" width="9" height="14" fill="#7fd4ff"/>
+      </g>
+      <circle cx="42" cy="40" r="24" fill="#f3c98a" stroke="#c98f4e" stroke-width="2.5"/>
+      <path d="M16,42 Q14,12 42,12 Q70,12 68,42 L72,70 L58,70 L58,40 Q58,26 42,26 Q26,26 24,44 L24,60 L14,60 Z" fill="#d99a3f" stroke="#9c7224" stroke-width="2.5" stroke-linejoin="round"/>
+      <path d="M28,30 L40,35" stroke="#7a5a22" stroke-width="3" stroke-linecap="round"/>
+      <path d="M56,30 L44,35" stroke="#7a5a22" stroke-width="3" stroke-linecap="round"/>
+      <ellipse cx="34" cy="42" rx="6.5" ry="8" fill="#ffffff" stroke="#3b3e42" stroke-width="1.5"/>
+      <ellipse cx="50" cy="42" rx="6.5" ry="8" fill="#ffffff" stroke="#3b3e42" stroke-width="1.5"/>
+      <circle cx="35" cy="44" r="3.2" fill="#2b2b2b"/><circle cx="49" cy="44" r="3.2" fill="#2b2b2b"/>
+      <ellipse cx="42" cy="55" rx="6" ry="4.5" fill="#7a2e36"/>
+      <g transform="translate(0,6)">
+        <rect x="0" y="0" width="26" height="20" rx="6" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+        <polygon points="12,18 20,18 18,28 Z" fill="#ffffff" stroke="#c0392b" stroke-width="2"/>
+        <text x="13" y="15" text-anchor="middle" font-size="15" fill="#c0392b" font-weight="900">!</text>
+      </g>
+    </g>
+  </defs>
+
+  <rect width="1560" height="1560" fill="#eef1f5"/>
+  <text x="780" y="44" text-anchor="middle" font-size="30" fill="#2b2b2b" font-weight="900">Rest Stop: Karen's Watching — Style Iteration 2</text>
+  <text x="780" y="68" text-anchor="middle" font-size="15" fill="#6b7280">Dynamic sky (changes as daylight runs down) · cuter "animated cartoon" characters</text>
+
+  <!-- ===== DYNAMIC SKY STRIP ===== -->
+  <text x="30" y="112" font-size="20" fill="#3b4252" font-weight="900">The sky shifts as your daylight runs down</text>
+
+  <!-- tile renderer (5 stages) -->
+  <g transform="translate(30,128)">
+    <rect x="0" y="0" width="280" height="250" fill="url(#skyMid)"/>
+    <circle cx="212" cy="56" r="24" fill="#fff6c2"/>
+    <rect x="0" y="246" width="280" height="8" fill="#7cb342"/>
+    <rect x="0" y="254" width="280" height="86" fill="url(#lot)"/>
+    <rect x="0" y="306" width="280" height="34" fill="#16222e" opacity="0.9"/>
+    <text x="12" y="328" font-size="16" fill="#ffffff" font-weight="900">MIDDAY</text>
+    <text x="268" y="328" text-anchor="end" font-size="14" fill="#ffd23f" font-weight="900">1000</text>
+    <rect x="0" y="0" width="280" height="340" fill="none" stroke="#2b2b2b" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(330,128)">
+    <rect x="0" y="0" width="280" height="250" fill="url(#skyAft)"/>
+    <circle cx="200" cy="92" r="28" fill="url(#sunGrad)"/>
+    <rect x="0" y="246" width="280" height="8" fill="#7cb342"/>
+    <rect x="0" y="254" width="280" height="86" fill="url(#lot)"/>
+    <rect x="0" y="306" width="280" height="34" fill="#16222e" opacity="0.9"/>
+    <text x="12" y="328" font-size="16" fill="#ffffff" font-weight="900">AFTERNOON</text>
+    <text x="268" y="328" text-anchor="end" font-size="14" fill="#ffd23f" font-weight="900">760</text>
+    <rect x="0" y="0" width="280" height="340" fill="none" stroke="#2b2b2b" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(630,128)">
+    <rect x="0" y="0" width="280" height="250" fill="url(#skyGold)"/>
+    <circle cx="150" cy="150" r="34" fill="url(#sunGrad)"/>
+    <rect x="0" y="246" width="280" height="8" fill="#6fa23c"/>
+    <rect x="0" y="254" width="280" height="86" fill="url(#lot)"/>
+    <rect x="0" y="306" width="280" height="34" fill="#16222e" opacity="0.9"/>
+    <text x="12" y="328" font-size="16" fill="#ffffff" font-weight="900">GOLDEN HOUR</text>
+    <text x="268" y="328" text-anchor="end" font-size="14" fill="#ffd23f" font-weight="900">520</text>
+    <rect x="0" y="0" width="280" height="340" fill="none" stroke="#2b2b2b" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(930,128)">
+    <rect x="0" y="0" width="280" height="250" fill="url(#skySun)"/>
+    <circle cx="150" cy="232" r="40" fill="url(#sunGrad)"/>
+    <rect x="0" y="246" width="280" height="8" fill="#5c8a30"/>
+    <rect x="0" y="254" width="280" height="86" fill="url(#lot)"/>
+    <rect x="0" y="306" width="280" height="34" fill="#16222e" opacity="0.9"/>
+    <text x="12" y="328" font-size="16" fill="#ffffff" font-weight="900">SUNSET</text>
+    <text x="268" y="328" text-anchor="end" font-size="14" fill="#ffb24d" font-weight="900">260</text>
+    <rect x="0" y="0" width="280" height="340" fill="none" stroke="#2b2b2b" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(1230,128)">
+    <rect x="0" y="0" width="280" height="250" fill="url(#skyDusk)"/>
+    <circle cx="60" cy="40" r="2" fill="#ffffff"/><circle cx="110" cy="70" r="1.6" fill="#ffffff"/><circle cx="200" cy="48" r="2" fill="#ffffff"/><circle cx="240" cy="90" r="1.5" fill="#ffffff"/>
+    <circle cx="150" cy="250" r="30" fill="#c25a3f" opacity="0.85"/>
+    <rect x="0" y="246" width="280" height="8" fill="#3f5f24"/>
+    <rect x="0" y="254" width="280" height="86" fill="#4a4e54"/>
+    <rect x="0" y="306" width="280" height="34" fill="#16222e" opacity="0.9"/>
+    <text x="12" y="328" font-size="16" fill="#ffffff" font-weight="900">DUSK</text>
+    <text x="268" y="328" text-anchor="end" font-size="14" fill="#ff7a6b" font-weight="900">60</text>
+    <rect x="0" y="0" width="280" height="340" fill="none" stroke="#2b2b2b" stroke-width="2.5"/>
+  </g>
+  <text x="30" y="498" font-size="14" fill="#6b7280" font-style="italic">The number is your remaining daylight — the sky color and the sun's height are both driven by it in real time.</text>
+
+  <!-- ===== CHARACTER PASS ===== -->
+  <text x="30" y="552" font-size="20" fill="#3b4252" font-weight="900">Characters — "animated cartoon" pass (drawn with code)</text>
+  <rect x="20" y="566" width="1520" height="396" rx="18" fill="#fbf3df" stroke="#2b2b2b" stroke-width="3"/>
+
+  <use href="#plannerCute" transform="translate(110,620) scale(1.9)"/>
+  <text x="186" y="912" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="900">THE PLANNER</text>
+  <text x="186" y="934" text-anchor="middle" font-size="14" fill="#6b7280">you</text>
+
+  <use href="#labCute" transform="translate(330,648) scale(1.9)"/>
+  <text x="425" y="912" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="900">LABRADOR</text>
+  <text x="425" y="934" text-anchor="middle" font-size="14" fill="#6b7280">the Puller</text>
+
+  <use href="#staffieCute" transform="translate(560,644) scale(1.9)"/>
+  <text x="659" y="912" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="900">STAFFIE</text>
+  <text x="659" y="934" text-anchor="middle" font-size="14" fill="#6b7280">the Lightning Rod</text>
+
+  <use href="#chiCute" transform="translate(800,656) scale(2.0)"/>
+  <text x="892" y="912" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="900">CHIHUAHUA</text>
+  <text x="892" y="934" text-anchor="middle" font-size="14" fill="#6b7280">the Runner</text>
+
+  <use href="#karenCute" transform="translate(1030,620) scale(1.9)"/>
+  <text x="1108" y="912" text-anchor="middle" font-size="17" fill="#2b2b2b" font-weight="900">KAREN</text>
+  <text x="1108" y="934" text-anchor="middle" font-size="14" fill="#6b7280">antagonist</text>
+</svg>
