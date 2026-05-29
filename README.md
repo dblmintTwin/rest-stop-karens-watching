@@ -82,6 +82,16 @@ still got banked when you pull out of that lot is your score.
 Browser-based (HTML / CSS / JavaScript). High scores persist locally via the
 browser's `localStorage` — no internet connection or cloud storage required.
 
+## Play
+
+- **Online:** https://dblminttwin.github.io/rest-stop-karens-watching/
+  (served from this repo via GitHub Pages — may take a minute to go live after a push)
+- **Locally:** download or clone the repo and open `index.html` in any modern
+  browser. No server or install is needed; everything runs in the browser and
+  scores save to your own machine. (You can also run `python3 -m http.server`
+  in the folder and visit the printed URL.)
+
 ## Status
 
-In development.
+Playable. Built as a self-contained HTML5 canvas game and verified to run
+cleanly through every screen and gameplay phase.
