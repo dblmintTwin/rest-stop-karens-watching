@@ -125,10 +125,30 @@ window.addEventListener("keydown", function (e) {
   if ([" ", "ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].indexOf(k) >= 0) {
     e.preventDefault();
   }
-  if (!keys[k]) onPress(k);     // discrete press
+  var fresh = !keys[k];
   keys[k] = true;
+  if (fresh) {
+    onPress(k);
+    // Only flush direction keys when Space fires during gameplay — the player
+    // was likely holding a direction while pressing an action key, and a missed
+    // keyup on that direction key would lock movement. Shift is never cleared
+    // (run mode is preserved). Direction keys themselves don't trigger a flush
+    // so continuous movement is never interrupted.
+    if (k === " " && isGameplay(S.state)) {
+      keys["ArrowLeft"] = false; keys["ArrowRight"] = false;
+      keys["a"] = false; keys["A"] = false;
+      keys["d"] = false; keys["D"] = false;
+    }
+    // GAMBLE uses ArrowLeft/Right as one-shot choices; clear them so neither
+    // direction carries a stuck value into the DASH movement phase.
+    if ((k === "ArrowLeft" || k === "ArrowRight") && S.state === "GAMBLE") {
+      keys["ArrowLeft"] = false; keys["ArrowRight"] = false;
+    }
+  }
 });
 window.addEventListener("keyup", function (e) { keys[e.key] = false; });
+window.addEventListener("blur", function () { keys = {}; });
+document.addEventListener("visibilitychange", function () { if (document.hidden) keys = {}; });
 canvas.addEventListener("mousedown", function () { canvas.focus(); });
 
 // discrete key presses (menus + actions)
@@ -178,7 +198,7 @@ function isGameplay(st) {
 }
 
 /* ------------------------------ state changes ---------------------------- */
-function setState(s) { S.prev = S.state; S.state = s; S.t = 0; S.paused = false; }
+function setState(s) { S.prev = S.state; S.state = s; S.t = 0; S.paused = false; keys = {}; }
 
 function flash(msg, dur) { S.flash = msg; S.flashT = dur || 2.2; }
 
